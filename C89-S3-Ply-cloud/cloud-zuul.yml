@@ -24,10 +24,10 @@ zuul:
          path: /simple/**
          #    跳转的地址，简单路由在配置path的时候是以“http”或“https”开头的。
          url: http://www.163.com
-      # 跳转路由   
+      # 路由名(跳转路由)  跳转到当前项目的某个action方法
       myForward:
          path: /us/**
-         url: forward:/cloud-user
+         url: forward:/hello
       # ribbon路由，直接跳转到服务名下的地址
       users:
          path: /users/**
