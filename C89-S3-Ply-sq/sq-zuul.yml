@@ -7,6 +7,8 @@ eureka:
          defaultZone: http://127.0.0.1:8000/eureka
          
 zuul:
+   # 设置不过滤敏感头
+   sensitiveHeaders: 
    routes:
       # 用户路由
       sq-user: /user/**
