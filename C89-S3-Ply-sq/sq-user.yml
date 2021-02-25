@@ -13,3 +13,8 @@ spring:
       url: jdbc:mysql://127.0.0.1/C89-S3-Ply-sq?useSSL=false
       username: root
       password: a
+      
+      
+logging:
+   level:
+      com.yc: debug
